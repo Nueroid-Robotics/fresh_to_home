@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<launch>
+
+<rosparam file="$(find finalfresh_description)/launch/controller.yaml" command="load"/>
+
+<node args="front_left_position_controller
+						front_right_position_controller
+						back_left_position_controller
+						back_right_position_controller 
+						joint_state_controller
+						lid_position_controller
+						" 
+						name="controller_spawner" ns="finalfresh" output="screen" pkg="controller_manager" respawn="false" type="spawner"/>
+
+<node name="robot_state_publisher" output="screen" pkg="robot_state_publisher" respawn="false" type="robot_state_publisher">
+  <remap from="/joint_states" to="/finalfresh/joint_states"/>
+</node>
+        <node name="finalfresh_hw_controller" pkg="finalfresh_description" type="finalfresh_hw_controller.py" />
+
+</launch>

@@ -1,0 +1,8 @@
+    {
+        "documentId": "c5a450e08ca5118fbbf149b5",
+        "robotName": "finalfresh",
+        "outputFormat": "urdf",
+        "addDummyBaseLink": "true",
+        "mergeSTLs": "visual",
+        "packageName": "finalfresh_description/meshes/"
+    }

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<launch>
+
+	<node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"/>
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"/>
+  
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+  </include>
+  
+<rosparam file="$(find finalfresh_description)/launch/controller.yaml" command="load"/>
+
+<node args="front_left_position_controller
+						front_right_position_controller
+						back_left_position_controller
+						back_right_position_controller 
+						joint_state_controller
+						lid_position_controller
+						" 
+						name="controller_spawner" ns="finalfresh" output="screen" pkg="controller_manager" respawn="false" type="spawner"/>
+
+<node name="finalfresh_hw_controller" pkg="finalfresh_description" type="finalfresh_hw_controller.py"/>  
+
+  <param command="$(find xacro)/xacro $(find finalfresh_description)/urdf/robot.urdf.xacro" name="robot_description"/>
+  
+  <node args="-param robot_description -urdf -model finalfresh" name="spawn_urdf" pkg="gazebo_ros" type="spawn_model"/>
+  
+</launch>

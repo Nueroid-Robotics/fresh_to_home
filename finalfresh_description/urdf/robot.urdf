@@ -1,0 +1,462 @@
+<robot name="finalfresh">
+<link name="base_link"></link>
+<joint name="base_link_to_base" type="fixed">
+<parent link="base_link"/>
+<child link="base_link" />
+<origin rpy="0.0 0 0" xyz="0 0 0"/>
+</joint>
+<link name="base_link">
+<collision>
+<origin xyz="0.181689 -0.142997 -0.232021" rpy="0 -0 1.249e-16" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component1.stl"/>
+</geometry>
+<material name="component1_material">
+<color rgba="0.0980392 0.0980392 0.0980392 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-1.16744 0.94699 -0.869947" rpy="0 -0 1.80411e-16" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component6.stl"/>
+</geometry>
+<material name="component6_material">
+<color rgba="0.627451 0.627451 0.627451 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-0.733912 1.62576 -0.729513" rpy="0 -0 1.80411e-16" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component2.stl"/>
+</geometry>
+<material name="component2_material">
+<color rgba="0.627451 0.627451 0.627451 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-0.188488 -0.0917969 -0.232021" rpy="4.08624e-14 4.58217e-30 -3.14159" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component1.stl"/>
+</geometry>
+<material name="component1_material">
+<color rgba="0.0980392 0.0980392 0.0980392 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-1.13629 1.06847 -1.00098" rpy="0 -0 1.80411e-16" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component7.stl"/>
+</geometry>
+<material name="component7_material">
+<color rgba="0.0980392 0.0980392 0.0980392 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-1.16744 0.94699 -0.869947" rpy="0 -0 1.80411e-16" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component6.stl"/>
+</geometry>
+<material name="component6_material">
+<color rgba="0.627451 0.627451 0.627451 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-0.733912 1.62576 -0.729513" rpy="0 -0 1.80411e-16" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component2.stl"/>
+</geometry>
+<material name="component2_material">
+<color rgba="0.627451 0.627451 0.627451 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-0.733912 1.62576 -0.729513" rpy="0 -0 1.80411e-16" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component2.stl"/>
+</geometry>
+<material name="component2_material">
+<color rgba="0.627451 0.627451 0.627451 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-1.16744 0.94699 -0.869947" rpy="0 -0 1.80411e-16" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component6.stl"/>
+</geometry>
+<material name="component6_material">
+<color rgba="0.627451 0.627451 0.627451 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-0.733912 1.62576 -0.729513" rpy="0 -0 1.80411e-16" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component2.stl"/>
+</geometry>
+<material name="component2_material">
+<color rgba="0.627451 0.627451 0.627451 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-0.733912 1.62576 -0.729513" rpy="0 -0 1.80411e-16" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component2.stl"/>
+</geometry>
+<material name="component2_material">
+<color rgba="0.627451 0.627451 0.627451 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-0.733912 1.62576 -0.729513" rpy="0 -0 1.80411e-16" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component2.stl"/>
+</geometry>
+<material name="component2_material">
+<color rgba="0.627451 0.627451 0.627451 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-0.188488 0.143203 -0.232021" rpy="4.08624e-14 -8.01149e-14 3.14159" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component1.stl"/>
+</geometry>
+<material name="component1_material">
+<color rgba="0.0980392 0.0980392 0.0980392 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-0.0839315 0.825754 -1.1338" rpy="4.0626e-14 -0.000575215 -3.14159" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component4.stl"/>
+</geometry>
+<material name="component4_material">
+<color rgba="0.0980392 0.0980392 0.0980392 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-1.16744 0.94699 -0.869947" rpy="0 -0 1.80411e-16" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component6.stl"/>
+</geometry>
+<material name="component6_material">
+<color rgba="0.627451 0.627451 0.627451 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-1.16744 0.94699 -0.869947" rpy="0 -0 1.80411e-16" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component6.stl"/>
+</geometry>
+<material name="component6_material">
+<color rgba="0.627451 0.627451 0.627451 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-0.733912 1.62576 -0.729513" rpy="-6.12323e-17 2.49603e-29 1.80411e-16" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/upper_base.stl"/>
+</geometry>
+<material name="upper_base_material">
+<color rgba="0.964706 0.964706 0.952941 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-1.16744 0.94699 -0.869947" rpy="0 -0 1.80411e-16" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component6.stl"/>
+</geometry>
+<material name="component6_material">
+<color rgba="0.627451 0.627451 0.627451 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-0.140445 -0.507503 -1.32618" rpy="0 -0 1.80411e-16" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component5.stl"/>
+</geometry>
+<material name="component5_material">
+<color rgba="0.627451 0.627451 0.627451 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-0.733912 1.62576 -0.729513" rpy="0 -0 1.80411e-16" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component2.stl"/>
+</geometry>
+<material name="component2_material">
+<color rgba="0.627451 0.627451 0.627451 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-1.16744 0.94699 -0.869947" rpy="0 -0 1.80411e-16" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component6.stl"/>
+</geometry>
+<material name="component6_material">
+<color rgba="0.627451 0.627451 0.627451 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-1.13129 1.06847 -1.00098" rpy="0 -0 1.80411e-16" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/lower_base.stl"/>
+</geometry>
+<material name="lower_base_material">
+<color rgba="0.964706 0.964706 0.952941 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-0.733912 1.62576 -0.729513" rpy="0 -0 1.80411e-16" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component2.stl"/>
+</geometry>
+<material name="component2_material">
+<color rgba="0.627451 0.627451 0.627451 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="0.181689 0.0918031 -0.232021" rpy="0 -0 1.249e-16" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component1.stl"/>
+</geometry>
+<material name="component1_material">
+<color rgba="0.0980392 0.0980392 0.0980392 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/base_link_visual.stl"/>
+</geometry>
+<material name="base_link_material">
+<color rgba="0.819182 0.819182 0.809403 1.0"/>
+</material>
+</visual>
+<inertial>
+<origin xyz="-0.00886666 -3.82194e-05 -0.0364475" rpy="0 0 0"/>
+<mass value="54.4024" />
+<inertia ixx="1.64694" ixy="-0.000325604"  ixz="-0.0856798" iyy="2.75505" iyz="0.000464311" izz="3.25161" />
+</inertial>
+</link>
+
+<link name="l_hub_motor">
+<collision>
+<origin xyz="-2.77556e-17 0 -0.0581" rpy="1.5708 3.08149e-33 0" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/hub_motor.stl"/>
+</geometry>
+<material name="hub_motor_material">
+<color rgba="0.0980392 0.0980392 0.0980392 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-1.11022e-16 0 -0.0581" rpy="1.5708 1.81799e-15 -3.14159" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component1.stl"/>
+</geometry>
+<material name="component1_material">
+<color rgba="0.384314 0.635294 0.403922 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/l_hub_motor_visual.stl"/>
+</geometry>
+<material name="l_hub_motor_material">
+<color rgba="0.0987575 0.0993873 0.0988067 1.0"/>
+</material>
+</visual>
+<inertial>
+<origin xyz="-8.02719e-06 4.74857e-06 -0.0801665" rpy="0 0 0"/>
+<mass value="0.838996" />
+<inertia ixx="0.00188943" ixy="-2.00837e-08"  ixz="-1.3693e-07" iyy="0.00188939" iyz="-3.24182e-07" izz="0.00338255" />
+</inertial>
+</link>
+
+<joint name="front_right" type="continuous">
+<origin xyz="0.181689 -0.0917969 -0.232021" rpy="-1.5708 -0 1.249e-16" />
+<parent link="base_link" />
+<child link="l_hub_motor" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="l_hub_motor_2">
+<collision>
+<origin xyz="-2.77556e-17 0 -0.0581" rpy="1.5708 -9.64083e-33 0" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/hub_motor.stl"/>
+</geometry>
+<material name="hub_motor_material">
+<color rgba="0.0980392 0.0980392 0.0980392 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-1.11022e-16 0 -0.0581" rpy="1.5708 1.83187e-15 -3.14159" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component1.stl"/>
+</geometry>
+<material name="component1_material">
+<color rgba="0.384314 0.635294 0.403922 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/l_hub_motor_2_visual.stl"/>
+</geometry>
+<material name="l_hub_motor_2_material">
+<color rgba="0.0987575 0.0993873 0.0988067 1.0"/>
+</material>
+</visual>
+<inertial>
+<origin xyz="-8.02719e-06 4.74857e-06 -0.0801665" rpy="0 0 0"/>
+<mass value="0.838996" />
+<inertia ixx="0.00188943" ixy="-2.00837e-08"  ixz="-1.3693e-07" iyy="0.00188939" iyz="-3.24182e-07" izz="0.00338255" />
+</inertial>
+</link>
+
+<joint name="back_right" type="continuous">
+<origin xyz="-0.188488 -0.0917969 -0.232021" rpy="-1.5708 1.22006e-14 1.249e-16" />
+<parent link="base_link" />
+<child link="l_hub_motor_2" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="lid">
+<collision>
+<origin xyz="-0.827388 -1.19928 -1.86847" rpy="-1.5708 8.60864e-33 0" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/lid.stl"/>
+</geometry>
+<material name="lid_material">
+<color rgba="0.0980392 0.0980392 0.0980392 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-1.38557 -0.251648 -1.09881" rpy="-1.5708 -1.89199e-15 -0.785398" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/composite_part_1.stl"/>
+</geometry>
+<material name="composite_part_1_material">
+<color rgba="0.972549 0.529412 0.00392157 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/lid_visual.stl"/>
+</geometry>
+<material name="lid_material">
+<color rgba="0.0997894 0.0989025 0.0978509 1.0"/>
+</material>
+</visual>
+<inertial>
+<origin xyz="0.239966 0.00954986 -5.61883e-05" rpy="0 0 0"/>
+<mass value="11.0226" />
+<inertia ixx="0.232328" ixy="0.00219681"  ixz="6.6045e-05" iyy="0.419919" iyz="4.22672e-05" izz="0.197173" />
+</inertial>
+</link>
+
+<joint name="lid_joint" type="revolute">
+<origin xyz="-0.30786 1.7899e-08 0.202016" rpy="1.5708 1.95829e-13 1.249e-16" />
+<parent link="base_link" />
+<child link="lid" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="0" upper="1.5708"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="r_hub_motor">
+<collision>
+<origin xyz="-1.11022e-16 0 0.0581" rpy="-1.5708 -1.249e-16 -3.76325e-48" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component1.stl"/>
+</geometry>
+<material name="component1_material">
+<color rgba="0.384314 0.635294 0.403922 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="-2.77556e-17 0 0.0581" rpy="-1.5708 3.08149e-33 1.51929e-64" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/hub_motor.stl"/>
+</geometry>
+<material name="hub_motor_material">
+<color rgba="0.0980392 0.0980392 0.0980392 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/r_hub_motor_visual.stl"/>
+</geometry>
+<material name="r_hub_motor_material">
+<color rgba="0.0987575 0.0993873 0.0988067 1.0"/>
+</material>
+</visual>
+<inertial>
+<origin xyz="-8.02719e-06 -4.74857e-06 0.0801665" rpy="0 0 0"/>
+<mass value="0.838996" />
+<inertia ixx="0.00188943" ixy="2.00837e-08"  ixz="1.3693e-07" iyy="0.00188939" iyz="-3.24182e-07" izz="0.00338255" />
+</inertial>
+</link>
+
+<joint name="front_left" type="continuous">
+<origin xyz="0.181689 0.0918031 -0.232021" rpy="1.5708 3.07902e-48 -3.14159" />
+<parent link="base_link" />
+<child link="r_hub_motor" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="r_hub_motor_2">
+<collision>
+<origin xyz="-5.55112e-17 0 0.0581" rpy="-1.5708 -2.0874e-26 6.26843e-30" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/component1.stl"/>
+</geometry>
+<material name="component1_material">
+<color rgba="0.384314 0.635294 0.403922 1.0"/>
+</material>
+</collision>
+<collision>
+<origin xyz="0 0 0.0581" rpy="-1.5708 -5.56696e-34 6.26843e-30" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/hub_motor.stl"/>
+</geometry>
+<material name="hub_motor_material">
+<color rgba="0.0980392 0.0980392 0.0980392 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://finalfresh_description/meshes/r_hub_motor_2_visual.stl"/>
+</geometry>
+<material name="r_hub_motor_2_material">
+<color rgba="0.0987575 0.0993873 0.0988067 1.0"/>
+</material>
+</visual>
+<inertial>
+<origin xyz="-8.02719e-06 -4.74857e-06 0.0801665" rpy="0 0 0"/>
+<mass value="0.838996" />
+<inertia ixx="0.00188943" ixy="2.00837e-08"  ixz="1.3693e-07" iyy="0.00188939" iyz="-3.24182e-07" izz="0.00338255" />
+</inertial>
+</link>
+
+<joint name="back_left" type="continuous">
+<origin xyz="-0.188488 0.0920031 -0.232021" rpy="1.5708 -7.71173e-14 3.14159" />
+<parent link="base_link" />
+<child link="r_hub_motor_2" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+
+</robot>
